@@ -26,24 +26,29 @@ export function FAQSection() {
 
   const faqs = [
     {
-      question: "¿Debo invertir para ser agente de bienes raíces?",
+      question: "¿Cómo funciona el proceso de compra de una propiedad?",
       answer:
-        "Si, ya que sos un emprendedor (no un empleado). Por lo tanto manejarás tus propios horarios y podrás incrementar tus ingresos sin límites.",
+        "El proceso comienza con una consulta personalizada donde analizamos tus necesidades y presupuesto. Te acompaño en la búsqueda, visitas, negociación, análisis legal y cierre de la operación. Mi objetivo es que cada paso sea transparente y exitoso.",
     },
     {
-      question: "¿De cuánto es la inversión que debo realizar para emprender como agente inmobiliario?",
+      question: "¿Qué servicios ofreces para vendedores?",
       answer:
-        "La inversión ronda los $100USD dentro de los primeros cuatro meses, al cuarto mes alrededor de $350USD y a partir del 6to mes un fee mensual de aproximadamente $70USD..",
+        "Ofrezco valuación profesional, estrategia de marketing digital y tradicional, sesiones fotográficas profesionales, gestión de visitas, negociación con compradores y asesoramiento legal hasta el cierre. Todo diseñado para maximizar el valor de tu propiedad.",
     },
     {
-      question: "¿Cuáles son los requisitos para ser agente inmobiliario en un ciudad?",
+      question: "¿Por qué elegir asesoría profesional en lugar de buscar por mi cuenta?",
       answer:
-        "Tener entre 25 y 55 años, movilidad propia (no excluyente), disponibilidad para trabajar tiempo completo, tener un perfil emprendedor y comercial, facilidad para relacionarse y una excelente presencia.",
+        "Como asesor inmobiliario experimentado, tengo acceso a propiedades exclusivas, conocimiento profundo del mercado, red de contactos profesionales y habilidades de negociación que pueden ahorrarte tiempo y dinero. Además, te protejo de riesgos legales y errores costosos.",
     },
     {
-      question: "¿Cómo saber si ser agente de bienes raíces es realmente lo mío?",
+      question: "¿Trabajas con propiedades de inversión?",
       answer:
-        "Contactame para agendar una charla y analizar cual es tu mejor opcion.",
+        "Sí, me especializo en análisis de inversión inmobiliaria. Evalúo rentabilidad, ubicación estratégica, potencial de valorización y retorno de inversión. Te ayudo a construir un portafolio inmobiliario rentable y seguro.",
+    },
+    {
+      question: "¿Cuáles son tus honorarios?",
+      answer:
+        "Mis honorarios varían según el tipo de operación y servicios requeridos. Trabajo con estructura de comisión competitiva y transparente. En nuestra primera consulta, te explico detalladamente todos los costos sin sorpresas.",
     },
   ]
 
@@ -54,11 +59,11 @@ export function FAQSection() {
       <div className="relative container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2
-            className={`text-white text-3xl md:text-4xl font-light mb-16 leading-tight transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+            className={`text-white text-3xl md:text-4xl lg:text-5xl font-light mb-16 leading-tight transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           >
-            <span className="marker-highlight">Preguntas frecuentes</span> sobre ser agente de
+            <span className="marker-highlight">Preguntas frecuentes</span> sobre
             <br />
-            bienes raíces
+            asesoría inmobiliaria profesional
           </h2>
 
           <Accordion type="single" collapsible className="space-y-4">

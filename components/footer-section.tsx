@@ -9,18 +9,16 @@ export function FooterSection() {
         <div className="bg-[#B8A76B] px-8 md:px-16 py-20 md:py-24 flex flex-col items-center justify-center text-center border-r border-[#0a0a0a]/10">
           <p className="text-sm uppercase tracking-widest mb-6 opacity-90 font-light">OFICINA</p>
           <h3 className="text-lg md:text-xl font-light mb-8 leading-relaxed">
-            Direccion de Pablo 123
+            Av. del Libertador 5800
             <br />
-            Buenso Aires
+            Buenos Aires, Argentina
           </h3>
           <a
-            href="https://takingdev.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:contacto@pablocastaneda.com.ar"
             className="inline-flex items-center gap-2 text-sm underline hover:opacity-80 transition-opacity"
           >
             <Send className="w-4 h-4" />
-            pablocastaneda.com.ar
+            contacto@pablocastaneda.com.ar
           </a>
         </div>
 
@@ -69,28 +67,22 @@ export function FooterSection() {
       <div className="bg-[#B8A76B] px-8 md:px-16 py-24 md:py-32 overflow-hidden relative">
         <div className="flex animate-scroll-left whitespace-nowrap">
           <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            Tu negocio. Tus reglas
+            Tu propiedad. Tu futuro
           </h2>
           <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            Tu negocio. Tus reglas
+            Tu propiedad. Tu futuro
           </h2>
           <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            Tu negocio. Tus reglas
+            Tu propiedad. Tu futuro
           </h2>
           <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            Tu negocio. Tus reglas
+            Tu propiedad. Tu futuro
           </h2>
           <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            Tu negocio. Tus reglas
+            Tu propiedad. Tu futuro
           </h2>
           <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            Tu negocio. Tus reglas
-          </h2>
-          <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            las. tu negocio
-          </h2>
-          <h2 className="text-[14vw] md:text-[10vw] lg:text-[8rem] xl:text-[10rem] font-serif italic leading-none text-white/95 pr-16">
-            Tu negocio. Tus reglas
+            Tu propiedad. Tu futuro
           </h2>
         </div>
       </div>

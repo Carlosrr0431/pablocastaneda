@@ -33,28 +33,42 @@ export function HeroSection() {
               />
               <div className="absolute bottom-6 right-6 text-right">
                 <p className="text-white text-2xl md:text-3xl font-serif italic">
-                  <span className="pencil-circle-svg">tu negocio</span>, tus reglas
+                  <span className="pencil-circle-svg">Tu propiedad</span>, tu futuro
                 </p>
               </div>
             </div>
           </div>
 
           <div className="space-y-6 md:space-y-8 lg:pt-8 order-2 lg:order-1">
-            <div className="space-y-6">
-              <h1
-                className={`text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light leading-tight transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <p
+                  className={`text-[#D4C5A0] text-sm md:text-base uppercase tracking-[0.3em] font-light transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+                >
+                  Asesor Inmobiliario
+                </p>
+                <h1
+                  className={`text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light leading-[1.1] transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0 delay-100" : "opacity-0 translate-y-8"}`}
+                >
+                  Pablo Castañeda
+                </h1>
+              </div>
+              <p
+                className={`text-white/70 text-lg md:text-xl lg:text-2xl font-light leading-relaxed max-w-2xl transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0 delay-200" : "opacity-0 translate-y-8"}`}
               >
-                
-Te ayudo a emprender en el Real Estate, con libertad de horarios, ingresos en dólares y{" "}
-                <span className="pencil-circle-svg inline-block">sin letra chica</span>
-              </h1>
+                Tu aliado estratégico en{" "}
+                <span className="text-[#D4C5A0] font-normal">bienes raíces</span>.
+                <br />
+                15 años de experiencia transformando sueños en{" "}
+                <span className="pencil-circle-svg inline-block">propiedades</span>
+              </p>
               <div
-                className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0 delay-300" : "opacity-0 translate-y-8"}`}
+                className={`flex flex-wrap gap-4 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0 delay-300" : "opacity-0 translate-y-8"}`}
               >
                 <Button
                   asChild
-                  size="sm"
-                  className="bg-[#D4C5A0] text-[#1c1c1e] hover:bg-[#E4D5B0] hover:scale-105 transition-all duration-300 rounded-full px-8 py-6 text-sm font-medium shadow-lg hover:shadow-xl"
+                  size="lg"
+                  className="bg-[#D4C5A0] text-[#1c1c1e] hover:bg-[#E4D5B0] hover:scale-105 transition-all duration-300 rounded-full px-8 py-6 text-base font-medium shadow-lg hover:shadow-xl"
                 >
                   <a
                     href="https://wa.me/5491234567890"
@@ -62,8 +76,18 @@ Te ayudo a emprender en el Real Estate, con libertad de horarios, ingresos en d�
                     rel="noopener noreferrer"
                     className="flex items-center gap-3"
                   >
-                    <ArrowRight className="w-4 h-4" />
-                    Hablemos de tu futuro
+                    <ArrowRight className="w-5 h-5" />
+                    Agenda tu consulta
+                  </a>
+                </Button>
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-[#D4C5A0] text-[#D4C5A0] bg-transparent hover:bg-[#D4C5A0] hover:text-[#1c1c1e] transition-all duration-300 rounded-full px-8 py-6 text-base font-medium"
+                >
+                  <a href="#servicios" className="flex items-center gap-3">
+                    Ver servicios
                   </a>
                 </Button>
               </div>
@@ -140,9 +164,9 @@ Te ayudo a emprender en el Real Estate, con libertad de horarios, ingresos en d�
                 fill
                 className="object-cover"
               />
-              <div className="absolute bottom-8 right-6 text-right">
+                            <div className="absolute bottom-8 right-6 text-right">
                 <p className="text-white text-3xl md:text-4xl font-serif italic">
-                  <span className="pencil-circle-svg">tu negocio</span>, tus reglas
+                  <span className="pencil-circle-svg">Tu propiedad</span>, tu futuro
                 </p>
               </div>
             </div>
